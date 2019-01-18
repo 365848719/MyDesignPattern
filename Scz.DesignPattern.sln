@@ -5,6 +5,14 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scz.DesignPattern.AbstractFactory", "Scz.DesignPattern.AbstractFactory\Scz.DesignPattern.AbstractFactory.csproj", "{B7EAEA7A-8F12-4148-9BD7-F6F36DB7BFD2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "创建型", "创建型", "{7A957095-F645-4C81-8394-00512050502C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "结构型", "结构型", "{0A3EE5C8-5800-4837-89C1-1D525E2CE506}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "行为型", "行为型", "{D8835690-AD16-4C17-A595-6364B1F05041}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "文档", "文档", "{DCB1F581-F12B-4EEA-8311-68FA527A37E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7EAEA7A-8F12-4148-9BD7-F6F36DB7BFD2} = {7A957095-F645-4C81-8394-00512050502C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6FCA8B6B-070D-4FF6-8145-02A5DB03C425}
