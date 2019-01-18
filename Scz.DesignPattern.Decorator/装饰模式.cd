@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="抽象：装饰角色">
+    <Position X="2.75" Y="3.51" Height="0.344" Width="1.263" />
+  </Comment>
+  <Comment CommentText="具体：装饰角色">
+    <Position X="2.479" Y="5.823" Height="0.312" Width="1.263" />
+  </Comment>
+  <Comment CommentText="抽象：构件角色">
+    <Position X="3.042" Y="1.115" Height="0.354" Width="1.2" />
+  </Comment>
+  <Comment CommentText="具体：构件角色">
+    <Position X="9.75" Y="0.646" Height="0.375" Width="1.335" />
+  </Comment>
+  <Class Name="Scz.DesignPattern.Facade.Phone">
+    <Position X="5.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Phone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Facade.Decorator">
+    <Position X="5.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAEAAA=</HashCode>
+      <FileName>Decorator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Facade.ApplePhone">
+    <Position X="9.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ApplePhone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Facade.Accessories">
+    <Position X="4.25" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Accessories.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Facade.Sticker">
+    <Position X="7.75" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Sticker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="抽象工厂：&#xD;&#xA;&#xD;&#xA;生成多个抽象产品">
+    <Position X="7.24" Y="0.823" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="具体工厂">
+    <Position X="7.542" Y="2.76" Height="0.458" Width="1.335" />
+  </Comment>
+  <Comment CommentText="抽象产品">
+    <Position X="1.198" Y="0.938" Height="0.458" Width="1.127" />
+  </Comment>
+  <Comment CommentText="具体产品">
+    <Position X="1.385" Y="2.615" Height="0.406" Width="0.867" />
+  </Comment>
+  <Comment CommentText="抽象产品">
+    <Position X="0.989" Y="5.313" Height="0.458" Width="0.919" />
+  </Comment>
+  <Comment CommentText="具体产品">
+    <Position X="0.927" Y="6.864" Height="0.458" Width="1.002" />
+  </Comment>
+  <Class Name="Scz.DesignPattern.AbstractFactory.Screen">
+    <Position X="3" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Screen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.AbstractFactory.AppleScreen">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>AppleScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.AbstractFactory.MiScreen">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>MiScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.AbstractFactory.AbstractFactory">
+    <Position X="9.5" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AbstractFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.AbstractFactory.AppleFactory">
+    <Position X="8.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AppleFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.AbstractFactory.MiFactory">
+    <Position X="11" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MiFactory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.AbstractFactory.AppleBoard">
+    <Position X="2.25" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>AppleBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.AbstractFactory.MiBoard">
+    <Position X="4.5" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>MiBoard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.AbstractFactory.Board">
+    <Position X="3" Y="5.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Board.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

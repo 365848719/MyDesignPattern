@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Scz.DesignPattern.Visitor.Element">
+    <Position X="5.75" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Element.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Visitor.ConcreteVisitor">
+    <Position X="10.25" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConcreteVisitor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Scz.DesignPattern.Visitor.ElementA">
+    <Position X="4" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ElementA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Visitor.ElementB">
+    <Position X="7.25" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>ElementB.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Visitor.ObjectStructure">
+    <Position X="1" Y="1.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ObjectStructure.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Scz.DesignPattern.Visitor.IVisitor">
+    <Position X="10.25" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IVisitor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

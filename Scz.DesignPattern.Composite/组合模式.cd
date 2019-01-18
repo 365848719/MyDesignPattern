@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="抽象构件角色">
+    <Position X="3.073" Y="1.104" Height="0.438" Width="1.21" />
+  </Comment>
+  <Comment CommentText="树叶构件角色">
+    <Position X="10.646" Y="4.292" Height="0.49" Width="1.315" />
+  </Comment>
+  <Comment CommentText="树枝构件角色">
+    <Position X="1.344" Y="3.646" Height="0.365" Width="1.117" />
+  </Comment>
+  <Comment CommentText="&#xD;&#xA;   安全组合模式">
+    <Position X="9.042" Y="1.01" Height="0.76" Width="1.669" />
+  </Comment>
+  <Class Name="Scz.DesignPattern.Composite.Graphics">
+    <Position X="4.5" Y="1" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Graphics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Composite.Line">
+    <Position X="5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Line.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Composite.Circle">
+    <Position X="8.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Composite.ComplexGraphics">
+    <Position X="1.75" Y="4.25" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAgAAAAAIBAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ComplexGraphics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

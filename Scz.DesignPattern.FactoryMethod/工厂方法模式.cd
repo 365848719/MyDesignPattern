@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="抽象产品">
+    <Position X="7.729" Y="1.073" Height="0.438" Width="0.992" />
+  </Comment>
+  <Comment CommentText="具体产品">
+    <Position X="9.687" Y="3.406" Height="0.438" Width="1.398" />
+  </Comment>
+  <Comment CommentText="抽象工厂">
+    <Position X="0.625" Y="0.875" Height="0.438" Width="1.044" />
+  </Comment>
+  <Comment CommentText="具体工厂">
+    <Position X="0.792" Y="2.677" Height="0.438" Width="1.179" />
+  </Comment>
+  <Class Name="Scz.DesignPattern.FactoryMethod.MailFactory">
+    <Position X="4" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\MailFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Scz.DesignPattern.FactoryMethod.SmsFactory">
+    <Position X="0.75" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Factory\SmsFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Scz.DesignPattern.FactoryMethod.MailSender">
+    <Position X="10.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product\MailSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Scz.DesignPattern.FactoryMethod.SmsSender">
+    <Position X="8" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Product\SmsSender.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Scz.DesignPattern.FactoryMethod.ISender">
+    <Position X="9" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISender.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Scz.DesignPattern.FactoryMethod.IFactory">
+    <Position X="2.25" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

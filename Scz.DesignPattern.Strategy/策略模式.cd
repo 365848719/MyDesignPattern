@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="抽象策略角色">
+    <Position X="6.521" Y="0.5" Height="0.365" Width="1.7" />
+  </Comment>
+  <Comment CommentText="具体策略角色">
+    <Position X="8.417" Y="3.292" Height="0.365" Width="1.7" />
+  </Comment>
+  <Comment CommentText="环境角色">
+    <Position X="1.729" Y="1.302" Height="0.365" Width="1.7" />
+  </Comment>
+  <Class Name="Scz.DesignPattern.PersonTaxStrategy">
+    <Position X="6.25" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>行为型模式\策略模式\PersonTaxStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Scz.DesignPattern.EnterpriseTaxStrategy">
+    <Position X="9.75" Y="4" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>行为型模式\策略模式\EnterpriseTaxStrategy.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Scz.DesignPattern.InterestOperation">
+    <Position X="1" Y="1.75" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>行为型模式\策略模式\InterestOperation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Scz.DesignPattern.ITaxStrategy">
+    <Position X="8.5" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>行为型模式\策略模式\ITaxStrategy.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Scz.DesignPattern.Prototype.RedColor">
+    <Position X="3.25" Y="3.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAAAAAAAQAAIAAAAAAAAAgABAAABA=</HashCode>
+      <FileName>ColorDemo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Picker" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Scz.DesignPattern.Prototype.ColorPicker">
+    <Position X="8.25" Y="3.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAAAAAAAQAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>ColorPicker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Scz.DesignPattern.Prototype.IColorDemo">
+    <Position X="3.25" Y="0.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAAAAAAAAQAAIAAAAAAAAAgABAAABA=</HashCode>
+      <FileName>IColorDemo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

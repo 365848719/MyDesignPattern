@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="代理模式\**" />
+    <EmbeddedResource Remove="代理模式\**" />
+    <None Remove="代理模式\**" />
+  </ItemGroup>
+
+</Project>

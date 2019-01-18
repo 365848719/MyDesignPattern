@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="抽象状态类">
+    <Position X="1.219" Y="0.563" Height="0.354" Width="1.263" />
+  </Comment>
+  <Comment CommentText="具体状态类">
+    <Position X="0.708" Y="3.958" Height="0.354" Width="1.263" />
+  </Comment>
+  <Comment CommentText="环境类">
+    <Position X="8.177" Y="0.594" Height="0.354" Width="0.835" />
+  </Comment>
+  <Class Name="Scz.DesignPattern.State.Account">
+    <Position X="9.25" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAgAAAAEAAAAAAAAQAAABAAAAAI=</HashCode>
+      <FileName>Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.State.SilverState">
+    <Position X="0.5" Y="4.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAEAAAAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>SilverState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.State.RedState">
+    <Position X="4.75" Y="4.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAEAAAAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>RedState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.State.GoldState">
+    <Position X="8.25" Y="4.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAEAAAAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAI=</HashCode>
+      <FileName>GoldState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.State.State">
+    <Position X="3" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAEAAAAAAAAQAgAACAEAAAAAAAAQAAAAAAAAEI=</HashCode>
+      <FileName>State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

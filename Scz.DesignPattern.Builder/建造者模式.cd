@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Scz.DesignPattern.Builder.Director">
+    <Position X="4.5" Y="1.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Director.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Builder.Benz">
+    <Position X="3.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAABAAE=</HashCode>
+      <FileName>Benz.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Scz.DesignPattern.Builder.BMW">
+    <Position X="7" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAABAAE=</HashCode>
+      <FileName>BMW.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Scz.DesignPattern.Builder.IBuilder">
+    <Position X="4.75" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAABAAE=</HashCode>
+      <FileName>IBuilder.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

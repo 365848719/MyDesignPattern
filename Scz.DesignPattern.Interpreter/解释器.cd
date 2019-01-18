@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="抽象表达式">
+    <Position X="10.181" Y="0.548" Height="0.438" Width="1.335" />
+  </Comment>
+  <Comment CommentText="环境类&#xD;&#xA;">
+    <Position X="0.51" Y="0.562" Height="0.333" Width="1.335" />
+  </Comment>
+  <Comment CommentText="终结符表达式">
+    <Position X="4.566" Y="0.5" Height="0.396" Width="1.346" />
+  </Comment>
+  <Comment CommentText="非终结符表达式">
+    <Position X="9.739" Y="2.521" Height="0.406" Width="1.481" />
+  </Comment>
+  <Comment CommentText="客户类">
+    <Position X="0.562" Y="3.042" Height="0.333" Width="0.95" />
+  </Comment>
+  <Class Name="Scz.DesignPattern.Interpreter.Expression">
+    <Position X="7.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Expression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Interpreter.AddExpression">
+    <Position X="4" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Expression\AddExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Interpreter.DivExpression">
+    <Position X="11.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Expression\DivExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Interpreter.MulExpression">
+    <Position X="9" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Expression\MulExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Interpreter.SubExpression">
+    <Position X="6.5" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Expression\SubExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Interpreter.VariableExpression">
+    <Position X="4.5" Y="1" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAgAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>VariableExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Interpreter.OperatorExpression">
+    <Position X="7.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>OperatorExpression.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Interpreter.Context">
+    <Position X="0.5" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAA=</HashCode>
+      <FileName>Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Interpreter.Calculator">
+    <Position X="0.5" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Calculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

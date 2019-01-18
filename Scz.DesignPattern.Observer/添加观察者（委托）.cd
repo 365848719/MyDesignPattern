@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="观察者模式：使用委托，添加订阅者的事件">
+    <Position X="3.083" Y="0.552" Height="0.406" Width="3.919" />
+  </Comment>
+  <Class Name="Scz.DesignPattern.Observer.TenXun2">
+    <Position X="2.25" Y="1.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAhAAAAAAQAAAAAAAAAAAABAAAAAAEAACAA=</HashCode>
+      <FileName>TenXun2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Observer.TenXunGame2">
+    <Position X="2.5" Y="5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TenXunGame2.cs</FileName>
+      <NewMemberFileName>TenXun2.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Scz.DesignPattern.Observer.Subscriber2">
+    <Position X="8.75" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Subscriber2.cs</FileName>
+      <NewMemberFileName>TenXun2.cs</NewMemberFileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Scz.DesignPattern.Observer.ISubscriber2">
+    <Position X="8.75" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ISubscriber2.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

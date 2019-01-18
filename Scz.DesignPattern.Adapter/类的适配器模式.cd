@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Comment CommentText="适配器角色">
+    <Position X="1.51" Y="6.094" Height="0.396" Width="1.252" />
+  </Comment>
+  <Comment CommentText="源角色">
+    <Position X="1.552" Y="3.927" Height="0.396" Width="1.252" />
+  </Comment>
+  <Comment CommentText="目标角色">
+    <Position X="7.5" Y="5.208" Height="0.396" Width="1.252" />
+  </Comment>
+  <Class Name="Scz.DesignPattern.Adapter.Source">
+    <Position X="3.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Source.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Scz.DesignPattern.Adapter.Adapter">
+    <Position X="3.25" Y="6" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAA=</HashCode>
+      <FileName>Adapter.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Scz.DesignPattern.Adapter.ITargetable">
+    <Position X="7.5" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAA=</HashCode>
+      <FileName>ITargetable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Scz.DesignPattern.Adapter.ISourceable">
+    <Position X="3.5" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>ISourceable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
