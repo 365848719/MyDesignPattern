@@ -60,6 +60,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "行为型", "行为型", "{D8835690-AD16-4C17-A595-6364B1F05041}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "文档", "文档", "{DCB1F581-F12B-4EEA-8311-68FA527A37E4}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\创建型模式.txt = ..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\创建型模式.txt
+		创建型重点.txt = 创建型重点.txt
+		常用设计模式.txt = 常用设计模式.txt
+		..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\总结.txt = ..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\总结.txt
+		..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\结构型模式.txt = ..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\结构型模式.txt
+		结构型重点.txt = 结构型重点.txt
+		..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\行为型模式.txt = ..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\行为型模式.txt
+		行为型重点.txt = 行为型重点.txt
+		..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\设计模式.jpg = ..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\设计模式.jpg
+		..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\设计模式.txt = ..\..\scz.git\trunk\Scz\Scz.DesignPattern\文档\设计模式.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
