@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scz", "Scz\Scz.csproj", "{DE265AD8-5810-4BBB-B960-1CF5F83E5DB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Scz.DesignPattern.AbstractFactory", "Scz.DesignPattern.AbstractFactory\Scz.DesignPattern.AbstractFactory.csproj", "{B7EAEA7A-8F12-4148-9BD7-F6F36DB7BFD2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DE265AD8-5810-4BBB-B960-1CF5F83E5DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DE265AD8-5810-4BBB-B960-1CF5F83E5DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DE265AD8-5810-4BBB-B960-1CF5F83E5DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DE265AD8-5810-4BBB-B960-1CF5F83E5DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7EAEA7A-8F12-4148-9BD7-F6F36DB7BFD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7EAEA7A-8F12-4148-9BD7-F6F36DB7BFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7EAEA7A-8F12-4148-9BD7-F6F36DB7BFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7EAEA7A-8F12-4148-9BD7-F6F36DB7BFD2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
