@@ -6,7 +6,16 @@ namespace Scz.DesignPattern.Decorator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ApplePhone applePhone = new ApplePhone();
+
+            Accessories accessories = new Accessories(applePhone);
+            accessories.Print();
+
+            Sticker sticker = new Sticker(applePhone);
+            sticker.Print();
+
+            Console.ReadLine();
+
         }
     }
 }

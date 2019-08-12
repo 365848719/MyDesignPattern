@@ -7,6 +7,8 @@ namespace Scz.DesignPattern.Observer
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+
+            ObserverPattern();
         }
 
         /// <summary>

@@ -9,7 +9,7 @@ namespace Scz.DesignPattern.Decorator
     /// <summary>
     /// 手机挂件，即具体装饰者
     /// </summary>
-    public class Accessories:Decorator
+    public class Accessories : Decorator
     {
         public Accessories(Phone p) : base(p)
         {
