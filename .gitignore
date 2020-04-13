@@ -125,3 +125,4 @@
 /Scz.DesignPattern.AbstractFactory/obj
 /.vs
 /Scz.DesignPattern.Observer/bin/Debug/netcoreapp2.2
+/Scz.DesignPattern.Singleton/bin/Debug/netcoreapp2.1
